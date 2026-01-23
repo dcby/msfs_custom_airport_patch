@@ -1,0 +1,10 @@
+[package]
+description = "Patcher"
+name = "msfs_custom_airport_patch"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.54", features = ["derive"] }
+serde_json = { version = "1.0.149", features = ["preserve_order"] }
